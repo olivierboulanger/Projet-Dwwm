@@ -1,0 +1,213 @@
+body, html {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Avenir LT Std 35 Medium';
+}
+
+.active {
+    color: black !important;
+    background-color: rgb(235, 197, 126) !important;
+}
+
+.none{
+    display: none;
+}
+.block{
+    display: block;
+}
+
+.affic{
+    height: 800px;
+}
+
+em {
+    color: rgb(196, 178, 20);
+}
+
+.mss {
+    color: wheat;
+}
+a, span {
+    color: #F28500 !important;
+    text-decoration: none !important;
+}
+
+.alert{
+    display: inline-block;
+}
+.img-size-logo{
+    width: 90%;
+}
+.container2{
+    margin-top: 60px;
+}
+
+.mapgo{
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    margin-top: 150px;
+    margin-bottom: 165px;
+}
+
+label, h1 {
+    color: white;
+}
+.green {
+    margin: 400px;
+    font-size: 25px;
+    color: green;
+}
+
+.quest {
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 40%;
+}
+
+.err {
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 40%;
+    color: red;
+}
+
+.acc {
+    margin-top: 150px;
+    margin-left: 20%;
+    margin-right: 40%;
+}
+
+#monCarousel {
+    margin-top: 200px;
+    margin-left: 30%;
+    margin-bottom: 100px;
+    max-width: 800px;
+    max-height: 490px;
+}
+
+li {
+    color: #F28500 !important;
+    list-style: none;
+}
+
+.caracteristique {
+    display: flex;
+    margin-bottom: 150px;
+    margin-left: 15%;
+}
+
+h2 {
+    color: white;
+}
+h3 {
+    color: #F28500;
+}
+
+.plex {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+}
+.plex2 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+#map{
+    width: 60%;
+}
+#rens{
+    width: 30%;
+}
+.rens2 {
+    margin: 20%;
+}
+.foot{
+    margin-bottom: -30px;
+}
+.item2 {
+    margin: 50px;
+}
+#low, #mfamily, #mtrike, #mturbo {
+    height: 100px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1278px) {
+    #monCarousel {
+        margin-top: 200px;
+        margin-left: 25%;
+        margin-right: 50px;
+        max-width: 800px;
+        max-height: 490px;
+    }
+    .caracteristique {
+        display: flex;
+        margin-bottom: 150px;
+        margin-left: 5%;
+    }
+    .mapgo{
+        width: 60%;
+        height: 500px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .logoname {
+        display: none;
+    }
+    .quest {
+        margin-right: 30%;
+    }
+    .err {
+        margin-right: 30%;
+    }
+    #monCarousel {
+        margin-top: 200px;
+        margin-left: 50px;
+        margin-right: 50px;
+        max-width: 800px;
+        max-height: 490px;
+    }
+    .caracteristique {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 150px;
+        margin-left: 25%;
+    }
+    .mapgo{
+        width: 80%;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        display: none;
+    }
+    .quest {
+        margin-right: 20%;
+    }
+    .err {
+        margin-right: 20%;
+    }
+    #monCarousel {
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
+        max-width: 600px;
+        max-height: 360px;
+    }
+    .caracteristique {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 150px;
+        margin-left: 15%;
+    }
+    .mapgo{
+        width: 80%;
+        height: 500px;
+    }
+}
